@@ -1,0 +1,13 @@
+body background-color: #F0F9F5;
+form background-color:#E8EAEA;
+letra color:#1D3236;
+form box-shadow: 10px 10px 30px #1D3236;
+link font: <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+font:font-family: 'Cormorant Garamond', serif;
+font color:#2d174d ;
+icons link: <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+icon logout : <i class="material-icons">exit_to_app</i>
+icon facebook :<i class="fa fa-facebook-square"></i>
+icaon twiter: <i class="fa fa-twitter-square"></i>
+icon instagram: <i class="fa fa-linkedin-square"></i>
+icon google : <i class="fa fa-google-plus-square"></i>
