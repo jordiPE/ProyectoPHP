@@ -1,0 +1,209 @@
+/*
+	Authors	:	Jordi Gómez & Daniel Fernández
+	Email		:	
+	Website	:	Device Manager
+*/
+*{
+
+}
+body{
+	background-color: #F0F9F5;
+}
+#headerContainer{
+	width: 100%;
+}
+#logotype{
+	width: 10%;
+	height: auto;
+	padding-left: 1%;
+	padding-top: 2%;
+  display: inline-block;
+}
+#login{
+  width: 85%;
+  display: inline-block;
+}
+#login ul{
+  padding-left: 90%;
+  display: inline-block;
+  text-decoration: none;
+}
+#login ul li {
+  text-decoration: none;
+  display: inline;
+
+}
+#login ul li a{
+  
+  color:#1D3236;
+  font:font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  display: block;
+  padding: 5%;
+}
+.out{
+  font-size: 50px;
+}
+.name{
+  font-size: 25px;
+}
+.imgLogo{
+	width: 100%;
+}
+#sectionContainer{
+  width: 100%;
+  margin-bottom: 0%;
+  height: auto;
+}
+#footerContainer{
+  width: 100%;
+  height: auto;
+  font-family: 'Cormorant Garamond', serif;
+  color:#1D3236;
+  padding-top: 5%;
+}
+#footerContainer i{
+  color: #2d174d ;
+}
+#formContainer{
+    width: 70%;
+    height: auto;
+    padding-left: 5%;
+    background-color:#E8EAEA;
+    color:#1D3236;
+    border-radius: 35px;
+    box-shadow: 10px 10px 30px #1D3236;
+    margin-left: 12%;
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Cormorant Garamond', serif;
+}
+.link {
+  background:#E8EAEA;
+  width:45%;
+  height:70px;
+  list-style:none;
+  display:inline-block;
+  text-align:center;
+}
+.link a {
+  color:#1D3236;
+  line-height:40px;
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.link:hover {
+  background:#D1D6D6;
+  color:#555;
+  cursor: pointer;
+}
+.error  {
+  font-weight: bold;
+  color: #C00;
+  font-family: 'Cormorant Garamond', serif;
+}
+.ad,h1{
+  font-family: 'Cormorant Garamond', serif;
+  color:#1D3236;
+}
+.next a{
+  color:#1D3236;
+  line-height:40px;
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.table td{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  color:#1D3236;
+}
+.table tr a{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  color:#1D3236;
+  text-decoration: none;
+}
+.line{
+  width: 100%;
+  margin-bottom: 0%;
+  justify-content: flex-start;
+  padding-left: 10%;
+}
+.line__label{
+  width: 20%;
+    font-size: 100%;
+}
+.line__input{
+    width: 40%;
+    font-family: 'Cormorant Garamond', serif;
+    color:#1D3236;
+    font-size: 90%;
+    display: block;
+}
+#containerButton{
+   padding-top: 2%;
+   padding-bottom: 1%;
+  padding-left: 25%;
+}
+#button{
+  background-color: transparent;
+    font-family: 'Cormorant Garamond', serif;
+    color:#1D3236;
+    border-color: #1D3236;
+    border-radius: 25px;
+    font-size: 90%;
+    font-weight: 600;
+    width: 15%;
+}
+#button:hover{
+  background-color: #D1D6D6;
+  color:#1D3236;
+  cursor:pointer;
+}
+textarea{
+  min-width:80%; ;
+  max-width: 80%;
+  min-height: 300px;
+  max-height: 300px;
+
+}
+.del{
+    background-color: transparent;
+    font-family: 'Cormorant Garamond', serif;
+    color:#1D3236;
+    border-color: #1D3236;
+    border-radius: 25px;
+    font-size: 90%;
+    font-weight: 600;
+    width: 5%;
+}
+.del:hover{
+  background-color: #D1D6D6;
+  color:#1D3236;
+  cursor:pointer;
+}
+.radio{
+  font-family: 'Cormorant Garamond', serif;
+  color:#1D3236;
+}
+h3{
+  font-family: 'Cormorant Garamond', serif;
+  color:#1D3236;
+}
+.ok a{
+  color:#1D3236;
+  line-height:40px;
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.ok {
+  color:#1D3236;
+  line-height:40px;
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+}

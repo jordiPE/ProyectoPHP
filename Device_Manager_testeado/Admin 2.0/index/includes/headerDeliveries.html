@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><?php echo $page_title; ?></title>
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="../includes/styleDeliveries.css">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div id="headerContainer">
+			<div id="logotype">
+				<img class="imgLogo" src="../img/unnamed.png" alt="logotype"/>
+			</div>
+			<div id="login">
+				<ul>
+					<li><?php if (isset($_SESSION['user'])) 
+						{
+							echo '<a class="name">'.$_SESSION['user'].'</a>';
+							echo '<a class="out" href="../../logout.php"><i class="fas fa-sign-out-alt"></i></a></li>';
+						} 
+						else 
+						{
+							echo '<a class="name" href="../../login.php">Login</a>';
+							echo '<a class="out"><i class="fas fa-sign-out-alt"></i></a></li>';
+						}?></li>
+					<li>
+				</ul>
+			</div>
+		</div>
+	</header>

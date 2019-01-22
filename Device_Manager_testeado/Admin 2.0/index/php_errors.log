@@ -1,0 +1,8 @@
+[21-Jan-2019 23:05:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Admin/index/types/index.php on line 79
+[21-Jan-2019 23:05:18 UTC] PHP Stack trace:
+[21-Jan-2019 23:05:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Admin/index/types/index.php:0
+[21-Jan-2019 23:05:18 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/Admin/index/types/index.php:79
+[21-Jan-2019 23:05:18 UTC] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/Admin/index/types/index.php on line 95
+[21-Jan-2019 23:05:18 UTC] PHP Stack trace:
+[21-Jan-2019 23:05:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Admin/index/types/index.php:0
+[21-Jan-2019 23:05:18 UTC] PHP   2. mysqli_free_result() /home/ubuntu/workspace/Admin/index/types/index.php:95

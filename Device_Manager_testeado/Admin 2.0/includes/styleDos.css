@@ -1,0 +1,104 @@
+/*
+	Authors	:	Jordi Gómez & Daniel Fernández
+	Email		:	
+	Website	:	Device Manager
+*/
+*{
+
+}
+body{
+	background-color: #F0F9F5;
+}
+#headerContainer{
+	width: 100%;
+}
+#logotype{
+	width: 10%;
+	height: auto;
+	padding-left: 1%;
+	padding-top: 2%;
+  display: inline-block;
+}
+#login{
+  width: 85%;
+  display: inline-block;
+}
+#login ul{
+  padding-left: 90%;
+  display: inline-block;
+  text-decoration: none;
+}
+#login ul li {
+  text-decoration: none;
+  display: inline;
+
+}
+#login ul li a{
+  
+  color:#1D3236;
+  font:font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  display: block;
+  padding: 5%;
+}
+.out{
+  font-size: 50px;
+}
+.name{
+  font-size: 25px;
+}
+.imgLogo{
+	width: 100%;
+}
+#footerContainer{
+  font-family: 'Cormorant Garamond', serif;
+  color:#1D3236;
+  padding-top: 20%;
+}
+#footerContainer i{
+  color: #2d174d ;
+}
+#formContainer{
+    width: 60%;
+    height: 100px;
+    padding-left: 10%;
+    background-color:#E8EAEA;
+    color:#1D3236;
+    border-radius: 35px;
+    box-shadow: 10px 10px 30px #1D3236;
+    margin-left: 15%;
+    margin-top: 8%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: 'Cormorant Garamond', serif;
+}
+.link {
+  background:#E8EAEA;
+  width:20%;
+  height:70px;
+  list-style:none;
+  display:inline-block;
+  text-align:center;
+}
+.link a {
+  color:#1D3236;
+  line-height:40px;
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.link:hover {
+  background:#D1D6D6;
+  color:#555;
+  cursor: pointer;
+}
+
+.error  {
+  font-weight: bold;
+  color: #C00;
+  font-family: 'Cormorant Garamond', serif;
+}
+.ad,h1{
+  font-family: 'Cormorant Garamond', serif;
+  color:#1D3236;
+}

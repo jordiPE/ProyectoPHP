@@ -1,0 +1,36 @@
+create table admin
+
+ CREATE TABLE `Admin` (  
+`AdminId` int (11) AUTO_INCREMENT,  
+`Name` varchar (10) NOT NULL,  
+`Password` varchar (6) NOT NULL,  
+PRIMARY KEY (`AdminId`)
+);
+
+
+create table personal
+
+ CREATE TABLE `personal` (  
+`PersonalId` int (11) AUTO_INCREMENT,  
+`FullName` varchar (20) NOT NULL,  
+`Phone` char (9) NOT NULL, 
+`Department` varchar (20) NOT NULL,
+`Observations` varchar (100) NOT NULL,
+PRIMARY KEY (`PersonalId`)
+);
+
+ CREATE TABLE `hardware` (  
+`HardwareId` int (11) AUTO_INCREMENT,  
+`TypeId` int NOT NULL,  
+`NumberOnLabel` varchar (10) NOT NULL, 
+`Description` varchar (100) NOT NULL,
+`RegistrationDate` date NOT NULL,
+`SerialNumber` varchar (10) NOT NULL,
+`Model` varchar (50) NOT NULL,
+`Departament` varchar (20) NOT NULL,
+`Observations` varchar (9999) NOT NULL,
+PRIMARY KEY (`HardwareId`),
+FOREIGN KEY (TypeID) REFERENCES types(typesId)     
+);
+
+CREATE TABLE `deliveries` ( `DeliveriesId` int (11) AUTO_INCREMENT, `PersonalId` int not null, `HardwareId` int Not Null, `FullName` varchar(40) NOT NULL, `Observations` varchar (9999) NOT NULL, `DateOfDelivery` date NOT NULL, `DeliveryStatus` varchar(9999) NOT NULL, `ReturnDate` date NOT NULL, `ReturnStatus` varchar (9999) NOT NULL, `Departament` varchar (20) NOT NULL, PRIMARY KEY (`DeliveriesId`), FOREIGN KEY (personalId) REFERENCES personal(personalId), FOREIGN KEY (hardwareId) REFERENCES hardware(hardwareId) )
